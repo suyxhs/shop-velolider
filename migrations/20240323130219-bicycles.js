@@ -125,6 +125,14 @@ module.exports = {
           isBestseller: faker.datatype.boolean(),
           isNew: faker.datatype.boolean(),
           popularity: +faker.string.numeric(3),
+          sizes: {
+            m: faker.datatype.boolean(),
+            s: faker.datatype.boolean(),
+            l: faker.datatype.boolean(),
+            xs: faker.datatype.boolean(),
+            xl: faker.datatype.boolean(),
+            xxl: faker.datatype.boolean(),
+          },
         }
       })
     )
